@@ -41,7 +41,20 @@ function LoginPage() {
                     </div>
                 </div>
             </form>
-            {/* Rest of the HTML code... */}
+            <div style={{ display: "flex" }}>
+                <div style={{ width: "50%", justifyContent: "center", textAlign: "center", marginTop: "100px", display: "flex", flexDirection: "column", alignItems: "center" }}>
+                    <p>如何使用?</p>
+                    <div className="intro"><label>1.註冊</label></div>
+                    <div className="intro"><label>2.登入</label></div>
+                    <div className="intro"><label>3.創建旅程</label></div>
+                    <div className="intro"><label>4.規劃行程</label></div>
+                </div>
+                <div style={{ width: "50%", justifyContent: "center", textAlign: "center", marginTop: "100px", display: "flex", flexDirection: "column", alignItems: "center", fontSize: "40px" }}>
+                    <p>This is some meaningless text.</p>
+                    <p>Just to fill the space.</p>
+                    <p>Feel free to replace it with your own content.</p>
+                </div>
+            </div>
         </div>
     );
 }
