@@ -8,7 +8,7 @@ import 'react-dates/lib/css/_datepicker.css';
 
 export const pureComponentAvailable = true;
 
-export function DayRange() {
+export default function DayRange() {
   const [startDate, setStartDate] = useState(null);
   const [endDate, setEndDate] = useState(null);
   const [focusedInput, setFocusedInput] = useState(null);
