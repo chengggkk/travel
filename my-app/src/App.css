@@ -1,0 +1,118 @@
+
+
+body {
+    background-color: #1a1a1a;
+    /* Set background color to dark gray */
+    background-attachment: fixed;
+    /* Fixed background */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: darkgray;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    /* Add shadow effect */
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: 1px solid white;
+    /* Set border color to white */
+    cursor: pointer;
+}
+
+.search {
+    background-color: transparent;
+    border: 1px solid white;
+    /* Set border color to white */
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.startdate {
+    background-color: transparent;
+    border: 1px solid white;
+    /* Set border color to white */
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+}
+.day-range-container {
+  margin-top: 500px !important; /* Use !important to ensure it takes precedence */
+}
+
+.login-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 250px;
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.password,
+.address {
+  width: 450px;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid gray;
+  /* Set border color to gray */
+  position: relative;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.login-submit {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* Add styles for login submit button */
+}
+
+.register{
+  color: white;
+
+}
